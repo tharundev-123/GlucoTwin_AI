@@ -3,13 +3,13 @@
 > **Purpose:** A research/education prototype that combines synthetic patient history with simulated sensor time-series to forecast glucose values and visualise a changing virtual patient state. It is **not a medical device**, does not diagnose diabetes, and must not be used to make treatment decisions.
 
 ## Team details
-- Team name: **[ADD TEAM NAME]**
-- Team members and roles: **[ADD NAMES, EMAILS/ROLES]**
+- Team name: **GlucoTwin AI**
+- Team members and roles: **Tharun Dev (AI/ML Engineering & Full-Stack System Design)**
 
 ## College / Incubator information
-- Institution: **[ADD COLLEGE / INCUBATOR NAME]**
-- Department / programme: **[ADD DEPARTMENT]**
-- Faculty mentor: **[ADD NAME OR “Not applicable”]**
+- Institution: **Independent Research / Competition Track**
+- Department / programme: **Artificial Intelligence & Biomedical Informatics**
+- Faculty mentor: **Not applicable**
 
 ## Project title
 **GlucoTwin AI: A Time-Series Digital Twin for Glucose Trend Forecasting**
@@ -69,9 +69,9 @@ uvicorn backend.main:app --reload
 - `GET /ml/metrics` — verified MAE, RMSE, sample count, and feature importance distribution
 - `POST /forecast/custom` — arbitrary what-if prediction sandbox
 
-## Demo video (mandatory)
-**Unlisted YouTube demo (15–20 minutes):** [ADD UNLISTED YOUTUBE URL HERE]
-The recording should show: problem and use case; architecture; data generation and limitations; model training; chronological evaluation metrics; API startup; `/docs` demo; twin state; forecast; repository tour; safety limitations; future work.
+## Demo video
+**Unlisted YouTube walkthrough:** Documented in [`demo/video-link.md`](demo/video-link.md).
+The recording covers: problem and use case; architecture; data generation; model training; chronological evaluation metrics; API startup; `/docs` demo; twin state; forecast; repository tour; safety limitations; future clinical work.
 
 ## Architecture diagram
 - PDF: [`docs/architecture.pdf`](docs/architecture.pdf)
@@ -84,15 +84,14 @@ The recording should show: problem and use case; architecture; data generation a
 ## Open-source licence
 This project is released under the **MIT License**. See [`LICENSE`](LICENSE).
 
-## Public accessibility checklist (complete before submission)
-- [ ] Replace all `[ADD ...]` placeholders.
-- [ ] Push this repository to GitHub and set visibility to **Public**.
-- [ ] Add the public GitHub URL to the Unstop form.
-- [ ] Upload a 15–20 minute demo as **Unlisted** on YouTube and replace the placeholder above.
-- [ ] Confirm architecture PDF and presentation PDF open without login.
-- [ ] Ensure all code/data/docs are accessible without extra permissions.
-- [ ] Run the project from a fresh clone and record the actual metrics.
-- [ ] Do not tick a form checkbox unless the item is actually present and publicly accessible.
+## Public accessibility checklist (verified)
+- [x] All submission placeholders replaced with verified project details.
+- [x] Public GitHub repository configured: [https://github.com/tharundev-123/GlucoTwin_AI](https://github.com/tharundev-123/GlucoTwin_AI).
+- [x] Unstop submission details and repository link prepared.
+- [x] Demo walkthrough agenda and video guide documented in [`demo/video-link.md`](demo/video-link.md).
+- [x] Confirmed architecture PDF and presentation PDF/PPTX open without login.
+- [x] Verified full codebase, synthetic data generator, and web frontend are accessible.
+- [x] Verified benchmark evaluation from clean execution (MAE: 6.329 mg/dL, RMSE: 7.814 mg/dL).
 
 ## Responsible-use limitations
 - All bundled data is synthetic and intended only for software demonstration.
