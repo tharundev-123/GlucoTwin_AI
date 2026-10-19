@@ -1,0 +1,8 @@
+{
+  "dataset": "synthetic demonstration data",
+  "target": "glucose 30 minutes ahead",
+  "test_rows": 698,
+  "mae": 6.329,
+  "rmse": 7.814,
+  "warning": "Synthetic-data metrics do not imply clinical validity."
+}
