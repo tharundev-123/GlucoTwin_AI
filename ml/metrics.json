@@ -1,8 +1,145 @@
 {
-  "dataset": "synthetic demonstration data",
-  "target": "glucose 30 minutes ahead",
-  "test_rows": 698,
-  "mae": 6.329,
-  "rmse": 7.814,
-  "warning": "Synthetic-data metrics do not imply clinical validity."
+  "dataset_name": "Synthetic Demo Patient Time-Series",
+  "data_provenance": "Deterministically generated synthetic physiological simulator",
+  "sampling_rate_minutes": 5,
+  "forecast_horizon_minutes": 120,
+  "forecast_horizon_steps": 24,
+  "train_samples": 4361,
+  "test_samples": 1091,
+  "total_valid_samples": 5452,
+  "split_strategy": "Chronological sequential split (80% train, 20% test)",
+  "model_architecture": "RandomForestRegressor (150 estimators, max_depth=14)",
+  "model_metrics": {
+    "mae": 5.26,
+    "rmse": 7.16,
+    "mape": 3.59
+  },
+  "baseline_persistence_metrics": {
+    "mae": 48.711,
+    "rmse": 59.482,
+    "mape": 27.26
+  },
+  "comparison": {
+    "mae_reduction_percentage": 89.2,
+    "rmse_reduction_percentage": 87.96,
+    "superior_to_baseline": true
+  },
+  "feature_importances": [
+    {
+      "feature": "cos_hour",
+      "importance": 0.5616,
+      "percentage": 56.16
+    },
+    {
+      "feature": "sin_hour",
+      "importance": 0.1417,
+      "percentage": 14.17
+    },
+    {
+      "feature": "glucose",
+      "importance": 0.1152,
+      "percentage": 11.52
+    },
+    {
+      "feature": "glucose_lag_1",
+      "importance": 0.0842,
+      "percentage": 8.42
+    },
+    {
+      "feature": "glucose_lag_2",
+      "importance": 0.0227,
+      "percentage": 2.27
+    },
+    {
+      "feature": "glucose_lag_24",
+      "importance": 0.0123,
+      "percentage": 1.23
+    },
+    {
+      "feature": "glucose_roc_30m",
+      "importance": 0.0118,
+      "percentage": 1.18
+    },
+    {
+      "feature": "glucose_roll_mean_24",
+      "importance": 0.0109,
+      "percentage": 1.09
+    },
+    {
+      "feature": "glucose_roll_mean_6",
+      "importance": 0.0097,
+      "percentage": 0.97
+    },
+    {
+      "feature": "glucose_roc_15m",
+      "importance": 0.0076,
+      "percentage": 0.76
+    },
+    {
+      "feature": "glucose_lag_12",
+      "importance": 0.0029,
+      "percentage": 0.29
+    },
+    {
+      "feature": "meal_carbs_sum_12",
+      "importance": 0.0027,
+      "percentage": 0.27
+    },
+    {
+      "feature": "glucose_roll_mean_12",
+      "importance": 0.0027,
+      "percentage": 0.27
+    },
+    {
+      "feature": "glucose_lag_6",
+      "importance": 0.0023,
+      "percentage": 0.23
+    },
+    {
+      "feature": "hr_mean_6",
+      "importance": 0.002,
+      "percentage": 0.2
+    },
+    {
+      "feature": "glucose_lag_3",
+      "importance": 0.002,
+      "percentage": 0.2
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 0.0018,
+      "percentage": 0.18
+    },
+    {
+      "feature": "glucose_roll_std_6",
+      "importance": 0.0017,
+      "percentage": 0.17
+    },
+    {
+      "feature": "activity_mean_6",
+      "importance": 0.0014,
+      "percentage": 0.14
+    },
+    {
+      "feature": "activity",
+      "importance": 0.0011,
+      "percentage": 0.11
+    },
+    {
+      "feature": "heart_rate",
+      "importance": 0.0007,
+      "percentage": 0.07
+    },
+    {
+      "feature": "sleep_hours",
+      "importance": 0.0006,
+      "percentage": 0.06
+    },
+    {
+      "feature": "meal_carbs_g",
+      "importance": 0.0004,
+      "percentage": 0.04
+    }
+  ],
+  "disclaimer": "Metrics evaluated on synthetic test sequences. Never constitutes clinical validation or medical efficacy."
 }
