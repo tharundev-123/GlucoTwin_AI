@@ -116,9 +116,9 @@ export const GlucoseForecastChart: React.FC<GlucoseForecastChartProps> = ({
       </div>
 
       {/* Chart Canvas */}
-      <div className="w-full h-[360px]">
+      <div className="w-full h-[400px] sm:h-[430px]">
         <ResponsiveContainer width="100%" height="100%">
-          <ComposedChart data={chartData} margin={{ top: 10, right: 15, left: -10, bottom: 0 }}>
+          <ComposedChart data={chartData} margin={{ top: 12, right: 20, left: -5, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="#94a3b8" strokeOpacity={0.15} />
 
             <XAxis

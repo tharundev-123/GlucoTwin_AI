@@ -28,8 +28,8 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenArchitecture
 }) => {
   return (
-    <header className="sticky top-0 z-30 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors">
-      <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+    <header className="sticky top-0 z-30 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 transition-colors w-full">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-10 h-20 flex items-center justify-between gap-4">
         
         {/* Brand & Patient Context */}
         <div className="flex items-center gap-4">
