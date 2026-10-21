@@ -1,6 +1,12 @@
 # GlucoTwin AI — Comprehensive Verification & Testing Report
 
 **Challenge:** Unstop Digital Twin Challenge 2026  
+**Project:** GlucoTwin AI — A Time-Series Digital Twin for 2-Hour Glucose Trend Forecasting  
+**Team Name:** Team Winners  
+**Institution:** Chandigarh University, Uttar Pradesh  
+**Department:** Department of Computer Science & Engineering — B.Tech in CSE (AI & ML)  
+**Authors:** Tharun Dev M C, Ashish Kumar Rawat, Saim Quadeer  
+**Mentor:** Not Applicable — Independent Entry  
 **Module:** QA Engineering & System Verification  
 **Test Suite:** Pytest v9.1.1 + TypeScript Compiler (tsc) + Vite Production Bundler  
 **Overall Status:** PASSED (15/15 Automated Unit & Integration Tests Passed, 0 Failures, 0 Warnings)

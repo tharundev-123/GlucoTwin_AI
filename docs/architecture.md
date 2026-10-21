@@ -1,6 +1,11 @@
 # GlucoTwin AI — Architecture Specification & Technical Blueprint
 
 **Project Title:** GlucoTwin AI — A Time-Series Digital Twin for 2-Hour Glucose Trend Forecasting  
+**Team Name:** Team Winners  
+**Institution:** Chandigarh University, Uttar Pradesh  
+**Department:** Department of Computer Science & Engineering — B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)  
+**Authors:** Tharun Dev M C (Lead AI/ML), Ashish Kumar Rawat (Full-Stack/Cloud), Saim Quadeer (UI/UX)  
+**Faculty Mentor:** Not Applicable — Independent Entry  
 **Challenge:** Digital Twin Challenge 2026 (Unstop)  
 **Track:** Healthcare AI & Biomedical Digital Twins  
 **Target Horizon:** 120 Minutes Ahead (24 steps @ 5-minute intervals)  

@@ -101,6 +101,22 @@ def generate_architecture_pdf():
     # Title & Header
     story.append(Paragraph("GlucoTwin AI — Architecture Blueprint", title_style))
     story.append(Paragraph("A Time-Series Digital Twin for 2-Hour Glucose Trend Forecasting | Unstop Digital Twin Challenge 2026", subtitle_style))
+    story.append(Spacer(1, 6))
+
+    # Team & Institution Info
+    team_meta_data = [[
+        Paragraph("<b>Team:</b> Team Winners | <b>Institution:</b> Chandigarh University, Uttar Pradesh | <b>Mentor:</b> Independent Entry<br/><b>Members:</b> Tharun Dev M C (Lead AI/ML), Ashish Kumar Rawat (Full-Stack/Cloud), Saim Quadeer (UI/UX)", ParagraphStyle('TeamMeta', parent=styles['Normal'], fontName='Helvetica', fontSize=8, leading=11, textColor=colors.HexColor('#0369a1')))
+    ]]
+    team_table = Table(team_meta_data, colWidths=[532])
+    team_table.setStyle(TableStyle([
+        ('BACKGROUND', (0,0), (-1,-1), colors.HexColor('#f0f9ff')),
+        ('BOX', (0,0), (-1,-1), 1, colors.HexColor('#bae6fd')),
+        ('TOPPADDING', (0,0), (-1,-1), 4),
+        ('BOTTOMPADDING', (0,0), (-1,-1), 4),
+        ('LEFTPADDING', (0,0), (-1,-1), 8),
+        ('RIGHTPADDING', (0,0), (-1,-1), 8),
+    ]))
+    story.append(team_table)
     story.append(Spacer(1, 10))
 
     # Regulatory Banner Box
@@ -267,12 +283,12 @@ def generate_presentation_pdf():
         {
             "num": "01",
             "title": "GlucoTwin AI: Time-Series Digital Twin for Glucose Forecasting",
-            "subtitle": "Unstop Digital Twin Challenge 2026 | Comprehensive Proof of Concept",
+            "subtitle": "Team Winners | Chandigarh University, Uttar Pradesh | Unstop Digital Twin Challenge 2026",
             "bullets": [
+                "<b>Team Members:</b> Tharun Dev M C (Lead AI/ML), Ashish Kumar Rawat (Full-Stack/Cloud), Saim Quadeer (UI/UX).",
+                "<b>Department & Degree:</b> Department of Computer Science & Engineering — B.Tech in CSE (AI & ML).",
                 "<b>Project Mission:</b> Develop an educational physiological digital twin predicting glucose trends 2 hours ahead.",
-                "<b>Core Paradigm:</b> Continuously updates virtual patient state using time-series sensor data & contextual events.",
-                "<b>Honest Science:</b> Compares trained ML models against simple persistence baselines with zero future data leakage.",
-                "<b>Regulatory Status:</b> Purely educational and research demonstration. Not a medical device. Non-diagnostic."
+                "<b>Regulatory Status:</b> Purely educational and research demonstration. Not a medical device. Independent Entry."
             ]
         },
         # Slide 2
@@ -437,11 +453,11 @@ def generate_presentation_pptx():
     blank_layout = prs.slide_layouts[6]
 
     slides_data = [
-        ("01", "GlucoTwin AI: Time-Series Digital Twin for Glucose Forecasting", "Unstop Digital Twin Challenge 2026 | Comprehensive Proof of Concept", [
+        ("01", "GlucoTwin AI: Time-Series Digital Twin for Glucose Forecasting", "Team Winners | Chandigarh University, UP | Unstop Digital Twin Challenge 2026", [
+            "Team Members: Tharun Dev M C (Lead AI/ML), Ashish Kumar Rawat (Full-Stack/Cloud), Saim Quadeer (UI/UX).",
+            "Department & Degree: Department of Computer Science & Engineering — B.Tech in CSE (AI & ML).",
             "Project Mission: Develop an educational physiological digital twin predicting glucose trends 2 hours ahead.",
-            "Core Paradigm: Continuously updates virtual patient state using time-series sensor data & contextual events.",
-            "Honest Science: Compares trained ML models against simple persistence baselines with zero future data leakage.",
-            "Regulatory Status: Purely educational and research demonstration. Not a medical device. Non-diagnostic."
+            "Regulatory Status: Purely educational and research demonstration. Not a medical device. Independent Entry."
         ]),
         ("02", "Clinical Need & The Glycemic Forecasting Problem", "Beyond Reactive Continuous Glucose Monitoring", [
             "Glycemic Volatility: Diabetes affects over 530 million adults globally; postprandial spikes and nocturnal hypoglycemia pose acute risks.",

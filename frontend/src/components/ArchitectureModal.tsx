@@ -36,6 +36,26 @@ export const ArchitectureModal: React.FC<ArchitectureModalProps> = ({ isOpen, on
           </div>
         </div>
 
+        {/* Team Credentials Banner */}
+        <div className="mb-6 p-4 rounded-2xl bg-gradient-to-r from-sky-50 via-cyan-50 to-teal-50 dark:from-slate-800/80 dark:via-slate-800/50 dark:to-slate-800/80 border border-sky-100 dark:border-slate-700/80 text-xs">
+          <div className="flex flex-wrap items-center justify-between gap-2 mb-2 pb-2 border-b border-sky-200/50 dark:border-slate-700">
+            <span className="font-bold text-sky-900 dark:text-sky-300">
+              Team: <span className="font-extrabold text-sky-600 dark:text-sky-400">Team Winners</span>
+            </span>
+            <span className="text-[11px] font-medium text-slate-600 dark:text-slate-400">
+              Chandigarh University, Uttar Pradesh
+            </span>
+          </div>
+          <div className="text-[11px] text-slate-600 dark:text-slate-300 space-y-1">
+            <p>
+              <strong className="text-slate-800 dark:text-slate-100">Team Members:</strong> Tharun Dev M C (Lead AI/ML) • Ashish Kumar Rawat (Full-Stack/Cloud) • Saim Quadeer (UI/UX)
+            </p>
+            <p className="text-slate-500 dark:text-slate-400">
+              Department of Computer Science & Engineering — B.Tech in CSE (AI & ML) • Independent Entry
+            </p>
+          </div>
+        </div>
+
         {/* 4-Layer Architecture Diagram */}
         <div className="space-y-4 mb-8">
           <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">

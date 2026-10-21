@@ -15,20 +15,17 @@
 
 ---
 
-## 👥 Hackathon Submission Placeholders
-
-> *Note to Evaluation Committee & Candidate Teams:* The placeholders below must be updated with your team's specific credentials prior to final hackathon submission.
+## 👥 Hackathon Submission Credentials
 
 - **Project Title:** GlucoTwin AI — A Time-Series Digital Twin for 2-Hour Glucose Trend Forecasting
-- **Team Name:** `[YOUR_TEAM_NAME_HERE]` *(e.g., Team GlucoTwin AI)*
+- **Team Name:** Team Winners
 - **Team Members & Roles:**
-  - `[MEMBER_1_NAME]` — *Lead AI/ML Engineer & Biomedical Modeling*
-  - `[MEMBER_2_NAME]` — *Full-Stack Developer & Cloud Systems Architect*
-  - `[MEMBER_3_NAME]` — *UI/UX Designer & Frontend Engineer*
-  - `[MEMBER_4_NAME]` — *QA Engineer & Healthcare Informatics Researcher*
-- **Institution / University / Incubator:** `[YOUR_COLLEGE_OR_INCUBATOR_NAME_HERE]`
-- **Department / Degree Programme:** `[e.g., Department of Computer Science & Engineering / Biomedical Engineering]`
-- **Faculty Mentor / Advisor:** `[FACULTY_MENTOR_NAME_HERE]` *(or "Not Applicable / Independent Entry")*
+  - **Tharun Dev M C** — *Lead AI/ML Engineer & Biomedical Modeling*
+  - **Ashish Kumar Rawat** — *Full-Stack Developer & Cloud Systems Architect*
+  - **Saim Quadeer** — *UI/UX Designer & Frontend Engineer*
+- **Institution / University / Incubator:** Chandigarh University, Uttar Pradesh
+- **Department / Degree Programme:** Department of Computer Science & Engineering — B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+- **Faculty Mentor / Advisor:** Not Applicable — Independent Entry
 - **Public GitHub Repository:** [https://github.com/tharundev-123/GlucoTwin_AI](https://github.com/tharundev-123/GlucoTwin_AI)
 - **15–20 Minute Unlisted YouTube Walkthrough:** `[YOUR_UNLISTED_YOUTUBE_VIDEO_URL_HERE]` *(See [demo/video-link.md](demo/video-link.md) for detailed recording script & timeline)*
 

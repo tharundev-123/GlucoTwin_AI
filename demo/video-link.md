@@ -2,6 +2,11 @@
 
 **Challenge:** Unstop Digital Twin Challenge 2026  
 **Project:** GlucoTwin AI — Time-Series Digital Twin for 2-Hour Glucose Trend Forecasting  
+**Team Name:** Team Winners  
+**Institution:** Chandigarh University, Uttar Pradesh  
+**Department:** Department of Computer Science & Engineering — B.Tech in CSE (AI & ML)  
+**Team Members:** Tharun Dev M C (Lead AI/ML), Ashish Kumar Rawat (Full-Stack/Cloud), Saim Quadeer (UI/UX)  
+**Mentor:** Not Applicable — Independent Entry  
 **Video Requirement:** 15–20 minute unlisted YouTube walkthrough video  
 **Unlisted Video Link:** `[YOUR_UNLISTED_YOUTUBE_VIDEO_URL_HERE]` *(Replace this placeholder before final Unstop submission)*
 
