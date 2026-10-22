@@ -27,7 +27,7 @@
 - **Department / Degree Programme:** Department of Computer Science & Engineering — B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)
 - **Faculty Mentor / Advisor:** Not Applicable — Independent Entry
 - **Public GitHub Repository:** [https://github.com/tharundev-123/GlucoTwin_AI](https://github.com/tharundev-123/GlucoTwin_AI)
-- **15–20 Minute Unlisted YouTube Walkthrough:** `[YOUR_UNLISTED_YOUTUBE_VIDEO_URL_HERE]` *(See [demo/video-link.md](demo/video-link.md) for detailed recording script & timeline)*
+- **15–20 Minute Unlisted YouTube Walkthrough:** `https://youtu.be/hWIF9GkOLSY` *(See [demo/video-link.md](demo/video-link.md) for detailed recording script & timeline)*
 
 ---
 
